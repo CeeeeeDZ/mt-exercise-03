@@ -41,4 +41,7 @@ Generate (sample) some text from a trained model with:
 
     ./scripts/generate.sh
 
-
+# Task 1
+- Change the download_data.sh, make it directly preprocess the existing rick and morty lines.
+- Enlarge the vocabulary size setting in download_data.sh, decrease <unk>.
+- Add -mps to generate.sh and train.sh, speed up the processing steps.
