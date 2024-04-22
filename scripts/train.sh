@@ -18,7 +18,7 @@ SECONDS=0
     CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python main.py --data $data/rick_morty \
         --epochs 40 \
         --log-interval 100 \
-        --emsize 200 --nhid 200 --dropout 0.5 --tied \
+        --emsize 200 --nhid 200 --dropout 0 0.3 0.5 0.7 0.9 1 --tied \
         --save $models/model.pt \
         --mps
 )
